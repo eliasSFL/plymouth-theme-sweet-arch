@@ -1,13 +1,13 @@
 # Maintainer: Abraham Murciano <abrahammurciano[at]gmail[dot]com>
 
-_theme="sweet-arch"
+_theme="sweet-arch-luks"
 _pkgname="plymouth-theme-$_theme"
 pkgname="$_pkgname-git"
 _gitname=$_pkgname
 _gitroot="git://github.com/abrahammurciano/$_gitname.git"
 pkgver=1
 pkgrel=1
-pkgdesc="Make your Arch Linux splash screen look wonderful with this theme inspired by Sweet by EliverLara."
+pkgdesc="Make your Arch Linux splash screen look wonderful with this theme inspired by Sweet by EliverLara, featuring LUKS password support."
 arch=("any")
 url="https://github.com/abrahammurciano/$_gitname"
 license=("GPL")

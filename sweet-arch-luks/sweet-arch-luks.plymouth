@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Sweet Arch LUKS
+Description=A sweet Arch theme for plymouth with vibrant colours inspired by the Sweet theme by eliverlara, featuring LUKS password support.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/sweet-arch-luks
+ScriptFile=/usr/share/plymouth/themes/sweet-arch-luks/sweet-arch-luks.script
